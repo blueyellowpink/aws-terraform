@@ -24,3 +24,15 @@ terraform state show [target]
 ```
 terraform show
 ```
+
+```
+terraform console
+```
+
+## Environment variable
+```
+terraform [command] -var="env_name=dev"
+```
+```
+terraform [command] -var-file="terraform.tfvars"
+```
