@@ -19,6 +19,11 @@ terraform apply -refresh-only -auto-approve
 terraform destroy -auto-approve
 ```
 
+### Output
+```
+terraform output
+```
+
 ### Format
 ```
 terraform fmt
